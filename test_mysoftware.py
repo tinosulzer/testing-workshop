@@ -9,3 +9,7 @@ def test_square_integers():
 
 def test_add():
     assert 2+2 == 4
+
+@pytest.mark.slow
+def test_slow():
+    print("Hello")
