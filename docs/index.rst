@@ -6,11 +6,14 @@
 Welcome to Testing Workshop's documentation!
 ============================================
 
+Hello, this is the workshop documentation!
+Contributors: Valentin Sulzer
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
+   Tutorial
 
 Indices and tables
 ==================
