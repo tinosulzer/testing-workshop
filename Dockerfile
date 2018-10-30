@@ -4,6 +4,4 @@ RUN apt-get update && apt-get install -y python3 python3-pip
 
 RUN pip3 install pytest numpy
 
-RUN pip3 install unittest
-
 WORKDIR /app
