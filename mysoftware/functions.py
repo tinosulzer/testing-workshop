@@ -1,7 +1,30 @@
 import numpy as np
 
 def square(x):
-    return x*x
+    """
+    Takes a number x and squares it.
+
+    Parameters:
+    -----------
+    x : float or int
+        Number which is to be squared
+
+    Returns:
+    --------
+    xsquared : float
+        Square of x
+
+    Examples:
+    ---------
+
+    >>> square(2)
+    4
+
+    >>> square(5)
+    25
+    """
+    xsquared = x*x
+    return xsquared
 
 def coulomb(r):
     assert type(r) in [float, int], "You passed an invalid argument"
