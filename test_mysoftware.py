@@ -6,3 +6,6 @@ def test_square_integers():
     assert square(0) == 0
     assert square(1) == square(-1)
     assert square(3) == 9
+
+def test_add():
+    assert 2+2 == 4
